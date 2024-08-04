@@ -1,0 +1,38 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@openzeppelin/contracts-upgradeable": "^5.0.2",
+        "hardhat": "^2.19.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.1.0"
+    },
+    "scripts": {
+        "hardhat-esm": "NODE_OPTIONS='--experimental-loader ts-node/esm/transpile-only --no-warnings=ExperimentalWarning' hardhat",
+        "test": "npm run hardhat-esm test"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+        "@nomicfoundation/hardhat-ethers": "^3.0.6",
+        "@nomicfoundation/hardhat-foundry": "^1.1.2",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+        "@nomicfoundation/hardhat-verify": "2.0.9",
+        "@openzeppelin/contracts": "^5.0.2",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "@types/chai": "^4.3.17",
+        "@types/mocha": "^10.0.7",
+        "@types/node": "^20.14.14",
+        "chai": "^4.5.0",
+        "ethers": "^6.13.2",
+        "hardhat": "^2.22.7",
+        "hardhat-abi-exporter": "^2.10.1",
+        "hardhat-contract-sizer": "^2.10.0",
+        "hardhat-gas-reporter": "^2.2.0",
+        "solhint": "^5.0.2",
+        "solidity-coverage": "^0.8.12",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "typechain": "^8.3.2",
+        "typescript": "^5.5.4"
+    }
+}
